@@ -41,3 +41,11 @@ public class Cine {
     public int getAforo() {
         return aforo;
     }
+    public Sala[] getSalas() {
+
+        return salas;
+    }
+    public void setSalas(Sala[] salas) {
+        this.salas = salas;
+    }
+}
