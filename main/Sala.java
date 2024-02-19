@@ -13,3 +13,12 @@ public class Sala {
         this.pelicula = pelicula;
         this.butacas = new String [filas][columnas];
     }
+    // Otros getters
+    public int getNumero() {
+        return numero;
+    }
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+    public Pelicula getPelicula() {
+        return pelicula;
