@@ -19,3 +19,11 @@ public class Cine {
             salas[i] = new Sala(i, null, columnas, filas);
         }
     }
+    public Sala buscarSala(int numeroSala) {
+        for (Sala sala : salas) {
+            if (sala.getNumero() == numeroSala) {
+                return sala;
+            }
+        }
+        return null;
+    }
