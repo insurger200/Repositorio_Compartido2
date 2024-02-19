@@ -35,3 +35,9 @@ public class Cine {
         }
 
     }
+    public String getNombre()  {
+        return nombre;
+    }
+    public int getAforo() {
+        return aforo;
+    }
