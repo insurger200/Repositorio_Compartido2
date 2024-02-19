@@ -27,3 +27,11 @@ public class Cine {
         }
         return null;
     }
+    public void sacarpeliculasalas1() {
+        for (int i = 0; i<salas.length;i++){
+            getSalas()[i].setPelicula(arraypelicula[i]);
+            System.out.println("SALA " + (i+1));
+            System.out.println("PELICULA; " + getSalas()[i].getPelicula().getTitulo() + "\nDURACION: " + getSalas()[i].getPelicula().getDuracion());
+        }
+
+    }
