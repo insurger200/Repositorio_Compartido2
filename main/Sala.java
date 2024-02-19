@@ -22,3 +22,14 @@ public class Sala {
     }
     public Pelicula getPelicula() {
         return pelicula;
+    }
+    public void setPelicula(Pelicula pelicula) {
+        this.pelicula = pelicula;
+    }
+    public String[][] getButacas(){
+        return butacas;
+    }
+    public void setButacas(String[][] butacas) {
+        this.butacas = butacas;
+    }
+}
