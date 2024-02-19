@@ -17,7 +17,7 @@ public Pelicula(String titulo, int duracion){
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-
+// Duracion de la pelicula
     public int getDuracion() {
         return duracion;
     }
